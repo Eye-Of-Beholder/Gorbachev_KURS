@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6027d1895a554e7bb0c56a34ffb83bda" Name="Diagram1">
+        <EntityTypeShape EntityType="KOMP_KURSModel.Devices" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KOMP_KURSModel.Roles" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KOMP_KURSModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KOMP_KURSModel.Users" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="KOMP_KURSModel.FK__Devices__User_ID__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="KOMP_KURSModel.FK__Users__Role_ID__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
